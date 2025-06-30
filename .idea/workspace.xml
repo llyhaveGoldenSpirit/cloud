@@ -5,15 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed908ad7-1ed4-4822-91d1-b7f8b96a38e1" name="更改" comment="init">
+      <change afterPath="$PROJECT_DIR$/shorturlx/src/main/java/com/lly/shorturlx/common/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shorturlx/src/main/java/com/lly/shorturlx/mapper/UrlMapMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shorturlx/src/main/java/com/lly/shorturlx/model/UrlMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shorturlx/src/main/java/com/lly/shorturlx/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shorturlx/src/main/java/com/lly/shorturlx/service/ShortUrlXService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shorturlx/src/main/java/com/lly/shorturlx/service/impl/ShortUrlXServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shorturlx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shorturlx/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/shorturlx" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1751283096062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1751285272604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751285272604</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +123,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
