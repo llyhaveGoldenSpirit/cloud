@@ -1,9 +1,11 @@
 package com.lly.shorturlx.redis;
 
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @Component
@@ -48,4 +50,14 @@ public class RedisUtil {
         return redisTemplate.getExpire(key, TimeUnit.SECONDS);
     }
 
+    //执行lua脚本
+    public List<Object> executeLua(String redisScript, List<String> keys, List<Object> args) {
+        try {
+            List<Object> result = redisTemplate.execute(new DefaultRedisScript<>(redisScript, List.class), keys, args);
+            return result;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 }
